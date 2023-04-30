@@ -1,17 +1,10 @@
 import React from "react";
 import "./App.css";
-import Tail from "./components/Tail";
+import Tail from "./components/Tails";
 
 function App() {
   return (
     <div className="App">
-      {/* <Counter />
-      <Input />
-      <ChangeColor />
-      <ParentProps />
-      <Todo /> */}
-      {/* <Header /> */}
-      {/* <Section color="orange" /> */}
       <Tail />
     </div>
   );

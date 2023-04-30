@@ -37,7 +37,7 @@ export default function Tail() {
           </li>
         </ul>
         <a
-          href="#"
+          href="#!"
           className=" hidden md:block py-2 px-3 text-white font-bold bg-orange-500 hover:bg-slate-600 rounded transition duration-300"
         >
           Login
@@ -66,13 +66,13 @@ export default function Tail() {
 
       {/* 모바일 토글 파트 */}
       <div className={toggle ? "md:hidden py-3" : "hidden py-3"}>
-        <a href="#" className="block py-2 px-4 hover:bg-slate-200">
+        <a href="#!" className="block py-2 px-4 hover:bg-slate-200">
           Menu1
         </a>
-        <a href="#" className="block py-2 px-4 hover:bg-slate-200">
+        <a href="#!" className="block py-2 px-4 hover:bg-slate-200">
           Menu2
         </a>
-        <a href="#" className="block py-2 px-4 hover:bg-slate-200">
+        <a href="#!" className="block py-2 px-4 hover:bg-slate-200">
           Menu3
         </a>
       </div>
